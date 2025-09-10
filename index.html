@@ -7,13 +7,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bandera de México</h1>
+  <header>
+    <h1>Bandera de México</h1>
+    <button id="resetBtn" title="Restaurar colores originales"></button>
+  </header>
 
   <div class="bandera">
     <!-- Verde -->
     <div class="columna">
       <label for="verde">Esperanza</label>
-      <input type="range" id="verde" min="0" max="255" value="153">
+      <input type="range" id="verde" min="0" max="255" value="104">
       <input type="text" id="verdeHex" readonly>
       <div id="verdeColor" class="color"></div>
     </div>
@@ -28,7 +31,7 @@
     <!-- Rojo -->
     <div class="columna">
       <label for="rojo">Sangre de nuestros héroes nacionales</label>
-      <input type="range" id="rojo" min="0" max="255" value="157">
+      <input type="range" id="rojo" min="0" max="255" value="193">
       <input type="text" id="rojoHex" readonly>
       <div id="rojoColor" class="color"></div>
     </div>
