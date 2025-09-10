@@ -1,1 +1,13 @@
-# graf-appMexico
+
+# Instituto Tecnológico de Pachuca
+## Ing. Sistemas Computacionales
+## Graficación
+## 1.4 Práctica integradora Bandera de México (1.1 + 1.2 + 1.3)
+## Autor: Leonardo Miguel Celis García
+## Numero de Control: 23200818
+## Fecha de entrega: 8 Septiembre 2025
+## Prompts utilizados de CHAT GPT:
+### PRIMER PROMPT: (Adjunto Imagen de Referencia) Tengo un proyecto web, con archivos separados, con los nombre "index.html", "style.css","script.js", la idea es generar una bandera de México, pero que los colores verde y rojo tengan un slider que se pueda mover de izquierda a derecha para hacer el tono del color mas oscuro o mas claro respectivamente, usando colores en hexadecimal para ello adicional, poner sobre cada color un texto que diga, en el verde: Esperanza, Blanco: Unidad, Rojo: Sangre de nuestros héroes nacionales, con un titulo grande central que diga Bandera de México, y además que abajo del slider, sea visible y se pueda seleccionar que código de color hexadecimal se esta viendo actualmente, por ultimo abajo de manera centrada agrega mis datos personales: Leonardo Miguel Celis García No. Control: 23200818
+### SEGUNDO PROMPT: OK, ahora quiero que tenga un mejor diseño, que los 3 recuadros tengan las mismas proporciones que la bandera real, ampliando ligeramente el rojo y verde horizontalmente, pero no demasiado, que estén todos centrados, que tengan un buen layout, de igual manera las fuentes de texto úsalas para que sean ligeramente mas grandes, y que también el texto este centrado y correctamente alineado, también agrega un botón extra a un costado de bandera de México que sirva para ajustar los colores de la bandera a la original, además que tenga forma de bandera de México chikita, también agrega un fondo oscuro para que tenga un mejor contraste con la bandera y toma en cuenta eso para el diseño
+### TERCER PROMPT: OK, mejoro pero aun hay detalles, los 3 rectangulos de las banderas no estan correctamente alineados, usa un correcto layout para que esten de la misma altura, ancho y en la misma posicion, ademas quiero que no tengan espacios entre los rectangulos, que este bien centrado y alineado correctamente y no dejes tanto espacio entre la bandera y mis datos personales, asi mismo dale una mejor presentacion a los sliders, un mejor estilo, asi como al cuadro de texto que tenga mejor apariencia
+### CUARTO PROMPT: OK, SIGUEN SIN ESTAR ALINEADOS LOS CUADRADOS DE CADA COLOR, ADEMAS NO ESTAN PEGADOS, PONLOS EN UNA TABLA O LA MANERA QUE CONSIDERES, PARA QUE ESTEN JUNTOS, PEGADOS ENTRE SI, QUE NO TENGAN ESPACIO ENTRE SI HORIZONTALMENTE, ADEMAS QUE ESTEN ALINEADOS, QUE TENGAN LA MISMA ALTURA Y POSICION, ACTUALMENTE EL ROJO ESTA UN POCO MAS ARRIBA QUE EL VERDE Y SEPARADOS, USA LO QUE CONSIDERES PARA QUE SE SOLUCIONE
