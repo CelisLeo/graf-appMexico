@@ -12,29 +12,36 @@
     <button id="resetBtn" title="Restaurar colores originales"></button>
   </header>
 
+  <!-- Controles con tabla -->
+  <table class="controles">
+    <tr>
+      <th class="titulo-col">Esperanza</th>
+      <th class="titulo-col">Unidad</th>
+      <th class="titulo-col largo">Sangre de nuestros héroes nacionales</th>
+    </tr>
+    <tr>
+      <td><input type="range" id="verde" min="0" max="255" value="104"></td>
+      <td>—</td>
+      <td><input type="range" id="rojo" min="0" max="255" value="206"></td>
+    </tr>
+    <tr>
+      <td><input type="text" id="verdeHex" readonly></td>
+      <td><input type="text" value="#FFFFFF" readonly></td>
+      <td><input type="text" id="rojoHex" readonly></td>
+    </tr>
+  </table>
+
+  <!-- Bandera -->
   <div class="bandera">
-    <!-- Verde -->
-    <div class="columna">
-      <label for="verde">Esperanza</label>
-      <input type="range" id="verde" min="0" max="255" value="104">
-      <input type="text" id="verdeHex" readonly>
-      <div id="verdeColor" class="franja"></div>
+    <div id="verdeColor" class="franja"></div>
+    <div id="blancoColor" class="franja">
+      <div class="simbolo">
+        @@@@<br>
+        @@@@<br>
+        @@@@
+      </div>
     </div>
-
-    <!-- Blanco -->
-    <div class="columna">
-      <p>Unidad</p>
-      <input type="text" value="#FFFFFF" readonly>
-      <div id="blancoColor" class="franja"></div>
-    </div>
-
-    <!-- Rojo -->
-    <div class="columna">
-      <label for="rojo">Sangre de nuestros héroes nacionales</label>
-      <input type="range" id="rojo" min="0" max="255" value="206">
-      <input type="text" id="rojoHex" readonly>
-      <div id="rojoColor" class="franja"></div>
-    </div>
+    <div id="rojoColor" class="franja"></div>
   </div>
 
   <!-- Datos personales -->
